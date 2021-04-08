@@ -10,6 +10,7 @@ namespace UserStore.Models
     public class RegisterModel
     {
         [Required]
+        [RegularExpression(@"^[^@\s]+@mail\.ru$", ErrorMessage = "Не верный формат почты")]
         public string Email { get; set; }
         [Required]
         [DataType(DataType.Password)]
