@@ -1,0 +1,4 @@
+C:\Users\Ilnur\Desktop\Semestrovka\UserStore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.csprojAssemblyReference.cache
+C:\Users\Ilnur\Desktop\Semestrovka\UserStore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\Ilnur\Desktop\Semestrovka\UserStore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.AssemblyInfo.cs
+C:\Users\Ilnur\Desktop\Semestrovka\UserStore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.csproj.CoreCompileInputs.cache
