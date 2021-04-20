@@ -29,6 +29,7 @@
           "Microsoft.EntityFrameworkCore": "5.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.5",
+          "PresentationLayer": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1412,6 +1413,18 @@
         },
         "compile": {
           "DataLayer.dll": {}
+        }
+      },
+      "PresentationLayer/1.0.0": {
+        "dependencies": {
+          "BisonessLayer": "1.0.0",
+          "DataLayer": "1.0.0"
+        },
+        "runtime": {
+          "PresentationLayer.dll": {}
+        },
+        "compile": {
+          "PresentationLayer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3727,6 +3740,11 @@
       "sha512": ""
     },
     "DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

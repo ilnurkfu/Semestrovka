@@ -25,4 +25,4 @@ namespace PresentationLayer
 		public AdService Ad { get { return _adService; } }
 	}
 }
-}
+
