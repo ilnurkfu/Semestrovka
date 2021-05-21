@@ -10,6 +10,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using UserStore.Models;
+using User = DataLayer.Entityes.User;
 
 namespace UserStore.Controllers
 {
