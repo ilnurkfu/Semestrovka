@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace UserStore.Models
 {
-    public class User : IdentityUser
+    public class Users : IdentityUser
     {
         public string FirstName { get; set; }
         public string SecondName { get; set; }

@@ -10,10 +10,10 @@ namespace UserStore.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signInManager;
+        private readonly UserManager<Users> _userManager;
+        private readonly SignInManager<Users> _signInManager;
 
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
+        public AccountController(UserManager<Users> userManager, SignInManager<Users> signInManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -28,7 +28,7 @@ namespace UserStore.Controllers
         {
             if (ModelState.IsValid)
             {
-                User users = new User { Email = model.Email, UserName = model.Email, FirstName = model.Firstname, SecondName = model.Secondname};
+                Users users = new Users { Email = model.Email, UserName = model.Email, FirstName = model.Firstname, SecondName = model.Secondname};
                 // добавляем пользователя
                 var result = await _userManager.CreateAsync(users, model.Password);
                 if (result.Succeeded)
