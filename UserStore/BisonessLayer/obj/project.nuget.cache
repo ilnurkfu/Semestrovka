@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "67wlZfZM6vnPD1a16G3cy5FkqP6pKO+bI+skm8yXfvrTGkIyUIDb8xyT3KPOMlKlPhxE0zEz+AJCKUfEmE4vZA==",
+  "dgSpecHash": "iXdfEUCT7x9SMZO4csnm9FC5quNbt6AbKy4azQlW0yuRQSwP5PVvPDfzA3M+XEkU9EhF9G4vjvaFgOjNTYZRrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\BisonessLayer\\BisonessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\BisonessLayer\\BisonessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ilnur\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ilnur\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

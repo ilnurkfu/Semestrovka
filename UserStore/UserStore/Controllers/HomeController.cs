@@ -31,7 +31,11 @@ namespace UserStore.Controllers
             return View(_dirs);
         }
          
-        public IActionResult Privacy()
+        public IActionResult Profil()
+        {
+            return View();
+        }
+        public IActionResult Ad()
         {
             return View();
         }
@@ -44,6 +48,10 @@ namespace UserStore.Controllers
             return View();
         }
         public IActionResult test()
+        {
+            return View();
+        }
+        public IActionResult Chat()
         {
             return View();
         }

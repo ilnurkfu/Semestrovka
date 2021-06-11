@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZktNp56ozziNWQL8oAJXkbhCNJTOCn5JIZsxZSGFYEWirRivDEzQYhOVUkPMF8ItAdH7fJqtUfmK9ihtKmhXjA==",
+  "dgSpecHash": "Y28mnM3oojR5ad5oHQpI34MB66+8OkWRCBy+7+1dYoDOF295OD1iwV6/ADhXfkFDSfRizU1IHN68CWRX63gW8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\UserStore\\UserStore.csproj",
+  "projectFilePath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\UserStore\\UserStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ilnur\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Ilnur\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

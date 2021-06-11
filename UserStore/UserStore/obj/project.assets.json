@@ -6781,11 +6781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\UserStore\\UserStore.csproj",
+      "projectUniqueName": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\UserStore\\UserStore.csproj",
       "projectName": "UserStore",
-      "projectPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\UserStore\\UserStore.csproj",
+      "projectPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\UserStore\\UserStore.csproj",
       "packagesPath": "C:\\Users\\Ilnur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\UserStore\\obj\\",
+      "outputPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\UserStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ilnur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6802,14 +6802,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\BisonessLayer\\BisonessLayer.csproj": {
-              "projectPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\BisonessLayer\\BisonessLayer.csproj"
+            "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\BisonessLayer\\BisonessLayer.csproj": {
+              "projectPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\BisonessLayer\\BisonessLayer.csproj"
             },
-            "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\DataLayer\\DataLayer.csproj"
+            "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj"
             },
-            "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\PresentationLayer\\PresentationLayer.csproj": {
-              "projectPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\PresentationLayer\\PresentationLayer.csproj"
+            "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\PresentationLayer\\PresentationLayer.csproj": {
+              "projectPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\PresentationLayer\\PresentationLayer.csproj"
             }
           }
         }

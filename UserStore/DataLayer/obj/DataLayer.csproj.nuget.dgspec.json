@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\Ilnur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ilnur\\AppData\\Roaming\\NuGet\\NuGet.Config",

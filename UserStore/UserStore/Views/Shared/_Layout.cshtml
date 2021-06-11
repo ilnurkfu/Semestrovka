@@ -72,20 +72,21 @@
                                 <ul class="nav navbar-nav navbar-right">
 
                                     <li class="current_page_item"><a asp-controller="Home" asp-action="Index">МЕНЮ</a></li>
-                                    <li><a asp-controller="Home" asp-action="place">ФОРМА</a></li>
-                                    <li><a href="new.cshtml">ОБЪЯВЛЕНИЯ</a></li>
-                                    <li><a href="chat.cshtml">ЧАТЫ</a></li>
+                                    <li><a asp-controller="Home" asp-action="Place">ФОРМА</a></li>
+                                    <li><a asp-controller="Home" asp-action="Ad">Обьявления</a></li>
+                                    <li><a asp-controller="Home" asp-action="chat">Чаты</a></li>
                                     @if (User.Identity.IsAuthenticated)
                                     {
-                                        <li><a href="profil.cshtml">@User.Identity.Name</a></li>
-                                        <form method="post" asp-controller="Account" asp-action="Logout">
-                                            <li><a href="authorization.cshtml">Выйти</a></li>
+                                        <li><a asp-controller="Home" asp-action="profil">@User.Identity.Name</a></li>
+                                        <form method="post" asp-controller="Account" asp-action="Login">
+                                            <li><a asp-controller="Login" asp-action="Logout">Выйти</a></li>
                                         </form>
                                     }
                                     else
                                     {
-                                        <li><a href="profil.cshtml">Профиль</a></li>
-                                        <a asp-controller="Account" asp-action="Login">Вход</a>
+                                        <li><a asp-controller="Home" asp-action="profil">Профиль</a></li>
+
+                                        <li><a asp-controller="Account" asp-action="Login">Вход</a></li>
                                     }
 
 
@@ -157,9 +158,9 @@
                         <div class="col-sm-8">
                             <nav class="footer_menu">
                                 <ul>
-                                    <li><a href="Index.cshtml">Меню</a></li>
-                                    <li><a href="Contact.cshtml">О нас</a></li>
-                                    <li><a href="politika.cshtml">Политика конфиденциальности</a></li>
+                                    <li><a asp-controller="Home" asp-action="Index">Меню</a></li>
+                                    <li><a asp-controller="Home" asp-action="Contact">О нас</a></li>
+                                    <li><a asp-controller="Home" asp-action="Politika">Политика конфиденциальности</a></li>
                                 </ul>
                             </nav>
                         </div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T+whCmEr/4gQLeSCYU03bKfj32V/OTPHp7Ow5pF5XFRBpdtW2rg0POKB+m0A7g9M2kc21FRCQhzqJoOUyrzA6Q==",
+  "dgSpecHash": "yz08Tx8Zo/6bhGhC0dn4Ykq18M0PTkLVB864ZY5ulGYgrpnznEilXI7ikzC7jBGVInte+VzZDZlvaj8Msr4GWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka-main\\UserStore\\PresentationLayer\\PresentationLayer.csproj",
+  "projectFilePath": "C:\\Users\\Ilnur\\Desktop\\Semestrovka\\UserStore\\PresentationLayer\\PresentationLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ilnur\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ilnur\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

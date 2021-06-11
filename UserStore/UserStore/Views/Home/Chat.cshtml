@@ -11,34 +11,34 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FORLIFE | Home Page 1</title>
+    <title>FORLIVE | Наши контакты</title>
 
     <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
     <link href='fonts/Lato-Medium.css' rel='stylesheet' type='text/css'>
     <link href='fonts/Lato-Heavy.css' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap css -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Font awesome css -->
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- Stroke Font Icon css -->
-    <link rel="stylesheet" href="//css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
 
     <!-- Animate css -->
-    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- Owl carousel 2 css -->
-    <link rel="stylesheet" href="/css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
 
     <!-- Custom css -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" href="/image/apple-touch-icon-precomposed.png">
-    <link rel="shortcut icon" type="image/png" href="/image/fav-icon.png" />
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" type="image/png" href="img/fav-icon.png" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,44 +54,82 @@
         <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
     </div>
 
-    <section class="search_courses_area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section_heading">
-                        <h1>Выбрать категорию</h1>
+    <
+
+    <section class="breadcrumb_area">
+        <div class="breadcrumb_top">
+            <div class="container">
+                <div class="row">
+                    <div class="breadcrumb_title section-padding">
+                        <h2>Чаты</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="course_search">
-                        <form asp-action="Index">
-                            <select onchange="location.href=this.value">
-                                <option value="" selected>Категории:</option>
-                                <option asp-controller="Home" asp-action="Page1">Билеты и путешествия</option>
-                                <option asp-controller="Home" asp-action="Page2">Настольные и компьютерные игры</option>
-                                <option asp-controller="Home" asp-action="Page3">Музыкальные инструменты</option>
-                                <option asp-controller="Home" asp-action="Page4">Билеты на концерт</option>
-                                <option asp-controller="Home" asp-action="Page5">Книги и журналы</option>
-                                <option asp-controller="Home" asp-action="Page6">Охота и рыбалка</option>
-                                <option asp-controller="Home" asp-action="Page7">Всё для спорта</option>
-                                <option asp-controller="Home" asp-action="Page8">Исскуство</option>
-                            </select>
-                        </form>
+        </div>
+        <div class="breadcrumb_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="breadcrumb_nav">
+                        <div class="col-sm-5">
+                            <h2>Чаты</h2>
+                        </div>
+                        <div class="col-sm-7">
+                            <ul>
+                                <li><a asp-controller="Home" asp-action="Index">МЕНЮ</a></li>
+                                <li>Чаты</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-   
+    <section class="our_courses_area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section_heading">
+                        <h1>Здесь вы можете обсудить вопросы вместе с пользователями чата</h1>
+                        <p>Нажмите на ссылку, чтобы присоединиться к нужной категории </p>
+                        <br>
+                        <p><a href="">Ссылка на чаты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
 
     <!-- jQuery Latest version -->
     <script src="/js/vendor/jquery.1.11.1.js"></script>
 
     <!-- Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+            function initialize() {
+              var mapOptions = {
+                zoom: 13,
+                scrollwheel: false,
+                center: new google.maps.LatLng(32.775067, -96.801377)
+              };
+
+              var map = new google.maps.Map(document.getElementById('map_area'),
+                  mapOptions);
+
+
+              var marker = new google.maps.Marker({
+                position: map.getCenter(),
+                animation:google.maps.Animation.BOUNCE,
+                icon: 'img/map-marker.png',
+                map: map
+              });
+
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 
     <!-- Bootstrap JS -->
     <script src="/js/bootstrap.min.js"></script>
